@@ -59,6 +59,7 @@ Config.I18n = {
   locale: 'en-us',
   supported: [
     'en-us'
+    , 'cn-zh'
     , 'es-es'
     , 'de-de'
     , 'it-it'
@@ -68,6 +69,7 @@ Config.I18n = {
   ], // To be copied to package.json
   languages: {
     'en-us': 'English',
+    'cn-zh': '简体中文',
     'de-de': 'Deutsch',
     'es-es': 'Español',
     'it-it': 'Italiano',
@@ -77,6 +79,7 @@ Config.I18n = {
   },
   aliases: {
     'en': 'en-us',
+    'zh': 'zh-cn',
     'de': 'de-de',
     'es': 'es-es',
     'it': 'it-it',
